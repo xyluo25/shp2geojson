@@ -30,4 +30,4 @@ The function works for multiple input format.
 
 ## A shp2geojson Converter GUI
 
-<img src="C:\Users\roche\AppData\Roaming\Typora\typora-user-images\image-20191023215104309.png" alt="image-20191023215104309" style="zoom:67%;" />
+<img src="C:\Users\roche\Anaconda_examples\001Github.com\shp2geojson\shp2geojson\gui\6f2881e54e09c63b4522c37fdbfb1d7.png" alt="image-20191023215104309" style="zoom:67%;" />
