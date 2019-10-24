@@ -31,4 +31,3 @@ The function works for multiple input format.
 ## A shp2geojson Converter GUI
 
 <img src=gui/converter.png alt="image-20191023215104309" style="zoom:67%;" />
-![image](http://github.com/Xiangyongluo/shp2geojson/raw/master/gui/converter.jpg)
