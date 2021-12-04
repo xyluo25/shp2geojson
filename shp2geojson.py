@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import geopandas
 import tkinter
 from tkinter import *
@@ -283,6 +282,3 @@ class zip_rar_shp_2_geojson:
         except Exception as err:
             print(err)
             #messagebox.showerror("Warning!",err)
-
->>>>>>> 5cdb3bdec914243a5a0bcbfc15b5a4bb0b39eeda
-        self.__del_unrar() 
