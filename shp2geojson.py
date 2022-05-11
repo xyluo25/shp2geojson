@@ -64,7 +64,7 @@ class shp2geojson:
     
     def getListOfFilesNames_folder(self):
         self.listOfFilesNames = os.listdir(self.dirName)
-        self.allFilesNames = list()
+        self.allFilesNames = []
 
         # Iterate over all the entries
         for entry in self.listOfFilesNames:
@@ -207,7 +207,7 @@ class zip_rar_shp_2_geojson:
     
     def getListOfFilesNames_folder(self):
         self.listOfFilesNames = os.listdir(self.dirName)
-        self.allFilesNames = list()
+        self.allFilesNames = []
 
         # Iterate over all the entries
         for entry in self.listOfFilesNames:
