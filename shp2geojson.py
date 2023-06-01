@@ -2,10 +2,8 @@ import geopandas
 import tkinter
 from tkinter import *
 from tkinter.filedialog import askopenfilename
-from tkinter.filedialog import asksaveasfilename
 from tkinter import messagebox
 import os
-import sys
 import zipfile
 import shutil
 import patoolib
