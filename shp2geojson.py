@@ -13,8 +13,7 @@ class SHP2GEOJSON:
 
     def __init__(self):
         # later define input folder name
-        self.root = tkinter.Tk()
-        self.trueORnot = True
+        self.root = tkinter.Tk().hide()
         self.message = "No shp file/Output file wrong"
 
     def __get_In_Out_filename(self):
@@ -26,7 +25,7 @@ class SHP2GEOJSON:
         return self.infileName
 
     def __warning_message(self):
-        messagebox.warning("Warning",self.message)
+        messagebox.warning("Warning", self.message)
 
     def __read_shp2geojson(self):
         self.data = geopandas.read_file(self.filename)
@@ -144,3 +143,10 @@ class SHP2GEOJSON:
             # messagebox.showerror("Warning!",err)
 
         self.__del_unrar()
+
+
+if __name__ == "__main__":
+    SHP2GEOJSON().convert_shp_multiple_rar()
+    # shp2geojson.convert_shp_multiple_zip()
+    # shp2geojson.convert_shp_multiple()
+    # shp2geojson.convert_shp_single()
