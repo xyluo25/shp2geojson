@@ -119,12 +119,12 @@ class SHP2GEOJSON:
         os.mkdir(self.temp_folder)         # create a temple folder
         self.root.withdraw()
         self.temp_path = os.getcwd() + "\%s" % self.temp_folder
-        patoolib.extract_archive(self.rarfilename, outdir="%s\\%s"%(os.getcwd(),self.temp_folder))
+        patoolib.extract_archive(self.rarfilename, outdir="%s\\%s"%(os.getcwd(), self.temp_folder))
 
     def __del_unrar(self):   ## delete the unziped templete folder
         # self.ttt = self.unrar()
         # self.temp_folder = str(self.ttt.split(".")[0])
-        shutil.rmtree(r"%s\%s"%(os.getcwd(),self.temp_folder))
+        shutil.rmtree(r"%s\%s"%(os.getcwd(), self.temp_folder))
 
     def convert_shp_multiple_rar(self):
         self.__unrar()
@@ -146,7 +146,4 @@ class SHP2GEOJSON:
 
 
 if __name__ == "__main__":
-    SHP2GEOJSON().convert_shp_multiple_rar()
-    # shp2geojson.convert_shp_multiple_zip()
-    # shp2geojson.convert_shp_multiple()
-    # shp2geojson.convert_shp_single()
+    SHP2GEOJSON().convert_shp_single()

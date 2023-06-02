@@ -1,26 +1,26 @@
 # shp2geojson
 
-A  Graphical User Interface (GUI) convert shp file to geojson file.
+A Graphical User Interface (GUI) convert shp file to geojson file.
 
-## **A single shp file format.**
+## **A single shp file**
 
 `from shp2geojson import shp2geojson as sg`
 
 `sg().convert_shp_single()`
 
-## **A folder shp file input:**
+## **A folder contain shp file**
 
 `from shp2geojson import shp2geojson as sg`
 
 `sg().convert_shp_multiple()`
 
-## **A zip file contain shp file as input:**
+## **A zip contain shpfile**
 
 `from shp2geojson import shp2geojson as sg`
 
 `sg().convert_shp_multiple_zip()`
 
-## **A rar file contain shp file as input:**
+## **A rar contain shpfile**
 
 `from shp2geojson import shp2geojson as sg`
 
